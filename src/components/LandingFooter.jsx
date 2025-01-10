@@ -8,7 +8,9 @@ const LandingFooter = () => {
     <section className="bg-dark">
       <footer
         className="footer-wrapper footer-layout4"
-        style={{ backgroundImage: "url(assets/img/bg/footer-bg4-1.png)" }}
+        style={{ backgroundColor: "#b4b4b4" }}
+
+        // style={{ backgroundImage: "url(assets/img/bg/footer-bg4-1.png)" }}
       >
         <div className="container">
           <div className="widget-area">
@@ -17,7 +19,11 @@ const LandingFooter = () => {
                 <div className="widget footer-widget widget-about">
                   <div className="about-logo">
                     <Link to="/">
-                      <img src="assets/img/logo-white.svg" alt="Bizmaster" />
+                      <img
+                        src="assets/img/logo.png"
+                        alt="Bizmaster"
+                        style={{ height: "5rem" }}
+                      />
                     </Link>
                   </div>
                   <p className="footer-text mb-30 mt-30">
