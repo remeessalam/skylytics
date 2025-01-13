@@ -8,14 +8,14 @@ const ServiceView = () => {
       <div className="container">
         <div className="col-xl-12 text-black">
           <div className="title-area mb-40">
-            <span className="sub-title text-black">
+            <span className="sub-title text-black" data-aos="fade-up">
               <img src="assets/img/icon/title_left.svg" alt="shape" />
               Our Services
             </span>
-            <h2 className="sec-title style2 text-black">
+            <h2 className="sec-title style2 text-black" data-aos="fade-up">
               Empowering Your Business with Cutting-Edge Solutions
             </h2>
-            <p className="sec-text mb-35 text-black">
+            <p className="sec-text mb-35 text-black" data-aos="fade-up">
               At SKYLYTICS Technologies LLP, we specialize in providing
               innovative tech solutions that help businesses stay ahead of the
               curve. Our services include custom software development,
@@ -30,7 +30,7 @@ const ServiceView = () => {
         </div>
         <div className="row gx-30 gy-30 justify-content-center">
           {services.map((obj) => (
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up">
               <div className="service-card">
                 <div className="service-card_img">
                   <img src={obj.image} alt="img" />

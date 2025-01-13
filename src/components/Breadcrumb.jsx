@@ -29,8 +29,10 @@ const Breadcrumb = ({ title }) => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="breadcumb-content">
-              <h1 className="breadcumb-title text-white">{title}</h1>
-              <ul className="breadcumb-menu">
+              <h1 className="breadcumb-title text-white" data-aos="fade-up">
+                {title}
+              </h1>
+              <ul className="breadcumb-menu" data-aos="fade-up">
                 <li style={{ color: "white" }}>
                   <Link to="/" style={{ color: "white" }}>
                     Home

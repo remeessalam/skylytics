@@ -9,11 +9,11 @@ const Industries = () => {
           <div className="row justify-content-center">
             <div className="col-lg-7">
               <div className="title-area text-center">
-                <span className="sub-title text-white">
+                <span className="sub-title text-white" data-aos="fade-up">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   Industries We Serve
                 </span>
-                <h2 className="sec-title style1 text-white">
+                <h2 className="sec-title style1 text-white" data-aos="fade-up">
                   Our technology solutions are designed to make a meaningful
                   impact across a variety of industries:
                 </h2>
@@ -22,7 +22,11 @@ const Industries = () => {
           </div>
           <div className="feature-wrap4">
             <div className="feature-bg-line">
-              <img src="assets/img/feature/feature_line.png" alt="img" />
+              <img
+                src="assets/img/feature/feature_line.png"
+                alt="img"
+                data-aos="fade-up"
+              />
             </div>
             <div className="row gy-80 justify-content-center justify-content-lg-between align-items-center">
               {industries.map((industry, index) => (
@@ -37,7 +41,10 @@ const Industries = () => {
                           />
                         </div> */}
                       </div>
-                      <div className="col-xl-5 col-lg-6 order-lg-1">
+                      <div
+                        className="col-xl-5 col-lg-6 order-lg-1"
+                        data-aos="fade-up"
+                      >
                         <div className="feature-content">
                           <h4 className="feature-content-title text-white mb-20">
                             {industry.title}

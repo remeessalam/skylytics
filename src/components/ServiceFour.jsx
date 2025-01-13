@@ -10,11 +10,11 @@ const ServiceFour = () => {
           <div className="row justify-content-center">
             <div className="col-xl-6">
               <div className="title-area text-center">
-                <span className="sub-title text-white">
+                <span className="sub-title text-white" data-aos="fade-up">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   Latest Service
                 </span>
-                <h2 className="sec-title style2 text-white">
+                <h2 className="sec-title style2 text-white" data-aos="fade-up">
                   Maximizing Through the Strategic{" "}
                 </h2>
               </div>
@@ -24,7 +24,11 @@ const ServiceFour = () => {
         <div className="container">
           <div className="row gx-30 gy-30 justify-content-center">
             {services.map((obj) => (
-              <div key={obj.service} className="col-xl-4 col-md-6">
+              <div
+                key={obj.service}
+                className="col-xl-4 col-md-6"
+                data-aos="fade-up"
+              >
                 <div className="service-card-3">
                   <div className="service-card-icon">
                     {/* {obj.image} */}

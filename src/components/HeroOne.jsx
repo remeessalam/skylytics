@@ -1,76 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const HeroOne = () => {
+const MainHero = ({ page }) => {
+  const isWeb = page === "web"; // Determine if the type is for 'web'
+
   return (
-    <div
-      className="hero-wrapper bg-smoke hero-1"
-      id="hero"
-      style={{ backgroundImage: "url(assets/img/hero/hero_bg_1_1.png)" }}
-    >
-      <div className="container">
-        <div className="row align-items-end">
-          <div className="col-xl-6">
-            <div className="hero-style1">
-              <span className="sub-title">
-                <img src="assets/img/icon/title_left.svg" alt="shape" />
-                Growth Accel erato
-              </span>
-              <h1 className="hero-title">
-                Transform Your Business Into Profession
-              </h1>
-              <p className="hero-text">
-                A business consultant is a professional who provides expert
-                advice and guidance to businesses on various aspects such
-              </p>
-              <div className="btn-group">
-                <Link to="/about" className="global-btn">
-                  Learn More <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
-                </Link>
-                <Link to="/service" className="global-btn style-border">
-                  Our Services
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-6">
-            <div className="hero-image-wrapp">
-              <div className="hero-thumb text-center">
-                <img src="assets/img/hero/hero_thumb_1_1.png" alt="img" />
-              </div>
-              <div className="hero-shape1" />
-              <div className="hero-shape2" />
-              <div className="hero-shape3" />
-              <div className="hero-shape4" />
-              <div className="hero-shape5 spin" />
-            </div>
-          </div>
-        </div>
-        <div className="hero-item-content">
-          <div className="hero-card_wrapper">
-            <div className="hero-card">
-              <div className="hero-card_icon">
-                <img src="assets/img/icon/1.svg" alt="img" />
-              </div>
-              <div className="hero-card_content">
-                <h4 className="box-title">Growth Acceler</h4>
-                <p className="hero-card_text">A business consultant</p>
-              </div>
-            </div>
-            <div className="hero-card">
-              <div className="hero-card_icon">
-                <img src="assets/img/icon/2.svg" alt="img" />
-              </div>
-              <div className="hero-card_content">
-                <h4 className="box-title">Growth Acceler</h4>
-                <p className="hero-card_text">Consultan professional</p>
-              </div>
+    <>
+      <div
+        className="hero-wrapper hero-2"
+        id="hero"
+        style={{ backgroundImage: "url(assets/img/hero/hero_bg_4_1.jpg)" }}
+      >
+        <div className="container">
+          <div className="hero-style2">
+            <h1 className="hero-title text-white" data-aos="fade-up">
+              Welcome to
+              <span className="hero-title2"> SKYLYTICS</span> Technologies LLP
+            </h1>
+            <p className="hero-text text-white" data-aos="fade-up">
+              At SKYLYTICS Technologies LLP, we deliver innovative solutions
+              like custom software, AI, mobile apps, and cloud computing to
+              optimize operations and drive growth. Partner with us to stay
+              ahead in today's dynamic business landscape.
+            </p>
+            <div className="btn-group">
+              <Link to="/about" className="global-btn" data-aos="fade-up">
+                Explore Our Services
+                <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
+              </Link>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default HeroOne;
+export default MainHero;

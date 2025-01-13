@@ -14,6 +14,7 @@ import MarqueeThree from "../components/MarqueeThree";
 import BlogFour from "../components/BlogFour";
 import FooterFour from "../components/FooterFour";
 import Industries from "../components/FeatureOne";
+import MainHero from "../components/HeroOne";
 
 const HomeFour = () => {
   let [active, setActive] = useState(true);
@@ -34,7 +35,7 @@ const HomeFour = () => {
       <HeaderFour />
 
       {/* HeroFour */}
-      <HeroOne />
+      <MainHero />
 
       {/* AboutFour */}
       <AboutFour />

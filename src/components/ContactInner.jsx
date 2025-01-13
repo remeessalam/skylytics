@@ -19,7 +19,7 @@ const ContactInner = () => {
 
   return (
     <>
-      <div className="map-sec">
+      <div className="map-sec" data-aos="fade-up">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7795.494697764477!2d77.70408739088752!3d12.955951070004169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1be55c0eac91%3A0x8db971f49d27627d!2sSBB%20Diamond%2C%20Hoodi%20Main%20Road%2C%20Ayyappa%20Nagar%2C%20Krpuram.%20Bangalore%20%23560036%20Karnataka!5e0!3m2!1sen!2sin!4v1673257108130!5m2!1sen!2sin"
           allowFullScreen=""
@@ -27,7 +27,7 @@ const ContactInner = () => {
           title="Bizmaster"
         />
       </div>
-      <div className="contact-area space">
+      <div className="contact-area space" data-aos="fade-up">
         <div className="container">
           <div className="contact-page-wrap bg-theme">
             <div className="row gy-40 align-items-center">
@@ -79,16 +79,18 @@ const ContactInner = () => {
           <div className="row gy-40 justify-content-between">
             <div className="col-lg-4">
               <div className="title-area mb-0">
-                <span className="sub-title">
+                <span className="sub-title" data-aos="fade-right">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   Contact Us
                 </span>
-                <h2 className="sec-title style2">Get In Touch</h2>
-                <p className="mb-40">
+                <h2 className="sec-title style2" data-aos="fade-right">
+                  Get In Touch
+                </h2>
+                <p className="mb-40" data-aos="fade-right">
                   Design is this a broad category encompasses various
                   technological solutions
                 </p>
-                <div className="social-btn style4">
+                <div className="social-btn style4" data-aos="fade-right">
                   <Link to="#" tabIndex={-1}>
                     <i className="fab fa-facebook-f" />
                   </Link>
@@ -108,7 +110,7 @@ const ContactInner = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-6 col-lg-8">
+            <div className="col-xl-6 col-lg-8" data-aos="fade-left">
               <div className="contact-form">
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <div className="row">

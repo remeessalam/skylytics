@@ -32,10 +32,12 @@ const WhyChooseUs = () => {
   return (
     <div style={{ backgroundColor: "black" }}>
       <div style={styles.container}>
-        <h2 style={styles.heading}>Why Choose Us?</h2>
+        <h2 style={styles.heading} data-aos="fade-up">
+          Why Choose Us?
+        </h2>
         <div style={styles.grid}>
           {reasons.map((reason, index) => (
-            <div key={index} style={styles.card}>
+            <div key={index} style={styles.card} data-aos="fade-up">
               <h3 style={styles.cardTitle}>{reason.title}</h3>
               <p style={styles.cardDescription}>{reason.description}</p>
             </div>

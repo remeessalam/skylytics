@@ -60,11 +60,11 @@ const TestimonialThree = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6">
               <div className="title-area text-center">
-                <span className="sub-title text-white">
+                <span className="sub-title text-white" data-aos="fade-up">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   Clients Testimonial
                 </span>
-                <h2 className="sec-title style2 text-white">
+                <h2 className="sec-title style2 text-white" data-aos="fade-up">
                   Innovation Moves You Forward{" "}
                 </h2>
               </div>
@@ -76,7 +76,11 @@ const TestimonialThree = () => {
                 <div className="row global-carousel testi-slider-4">
                   <Slider {...settings}>
                     {testimonials.map((obj) => (
-                      <div key={obj.name} className="px-2">
+                      <div
+                        key={obj.name}
+                        className="px-2"
+                        data-aos="fade-right"
+                      >
                         <div className="testi-card style2">
                           <div className="testi-card_content">
                             <div className="testi-card-profile">
@@ -117,7 +121,7 @@ const TestimonialThree = () => {
               </div>
             </div>
             <div className="col-lg-7">
-              <div className="testimonial-thumb1">
+              <div className="testimonial-thumb1" data-aos="fade-left">
                 <img
                   src={testimonial}
                   alt="img"
