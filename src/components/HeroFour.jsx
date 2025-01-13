@@ -20,7 +20,7 @@ const HeroFour = () => {
             <div className="hero-style4">
               <h1 className="hero-title text-white">
                 Welcome to
-                <span className="text-theme2"> Skylytics Technologies LLP</span>
+                <span className="text-theme2"> SKYLYTICS Technologies LLP</span>
               </h1>
               <p className="hero-text">
                 Leading Innovation with AI, Technology, and Tailored Solutions

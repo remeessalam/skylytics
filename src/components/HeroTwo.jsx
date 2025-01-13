@@ -15,12 +15,12 @@ const LandingHero = ({ page }) => {
           <div className="hero-style2">
             <h1 className="hero-title text-white">
               Welcome to
-              <span className="hero-title2"> Skylytics</span> Technologies LLP
+              <span className="hero-title2"> SKYLYTICS</span> Technologies LLP
             </h1>
             <p className="hero-text text-white">
               {isWeb
-                ? "Skylytics specializes in creating cutting-edge websites that combine innovation, scalability, and user-centric design."
-                : "Build seamless and scalable mobile apps tailored to your needs with Skylytics Technologies LLP."}
+                ? "SKYLYTICS specializes in creating cutting-edge websites that combine innovation, scalability, and user-centric design."
+                : "Build seamless and scalable mobile apps tailored to your needs with SKYLYTICS Technologies LLP."}
             </p>
             <div className="btn-group">
               <Link to="/about" className="global-btn">

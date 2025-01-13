@@ -21,8 +21,13 @@ import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import LandingPage from "./pages/LandingPage";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const App = () => {
+  AOS.init({
+    once: true,
+    duration: 1000,
+  });
   return (
     <>
       <BrowserRouter>

@@ -23,12 +23,21 @@ const ServiceFour = () => {
         </div>
         <div className="container">
           <div className="row gx-30 gy-30 justify-content-center">
-            {services.slice(0, 3).map((obj) => (
+            {services.map((obj) => (
               <div key={obj.service} className="col-xl-4 col-md-6">
                 <div className="service-card-3">
                   <div className="service-card-icon">
-                    {obj.icon}
-                    {/* <img src="assets/img/icon/service-icon_1-1.svg" alt="img" /> */}
+                    {/* {obj.image} */}
+                    <img
+                      src={obj.image}
+                      alt="img"
+                      style={{
+                        objectFit: "cover",
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: "100%",
+                      }}
+                    />
                   </div>
                   <div className="service-card_content">
                     <h4 className="service-card_title">

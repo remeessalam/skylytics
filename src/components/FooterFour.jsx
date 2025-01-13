@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { companyDetails } from "../constant";
+import { BsTwitterX } from "react-icons/bs";
 
 const FooterFour = () => {
   return (
@@ -38,13 +39,15 @@ const FooterFour = () => {
                         style={{ color: "black" }}
                       />
                     </Link>
-                    <Link to="#" tabIndex={-1}>
-                      <i
-                        className="fab fa-twitter"
+                    <Link to={companyDetails.x} tabIndex={-1}>
+                      <BsTwitterX
+                        className="fab fa-x"
                         style={{ color: "black" }}
                       />
+
+                      {/* <i classNasme="fab fa-x" style={{ color: "black" }} /> */}
                     </Link>
-                    <Link to="#" tabIndex={-1}>
+                    <Link to={companyDetails.instagram} tabIndex={-1}>
                       <i
                         className="fab fa-instagram"
                         style={{ color: "black" }}

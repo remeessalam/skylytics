@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { companyDetails } from "../constant";
+import { BsTwitterX } from "react-icons/bs";
 
 const ContactInner = () => {
   const {
@@ -94,10 +95,14 @@ const ContactInner = () => {
                   <Link to="#" tabIndex={-1}>
                     <i className="fab fa-linkedin-in" />
                   </Link>
-                  <Link to="#" tabIndex={-1}>
-                    <i className="fab fa-twitter" />
+                  <Link to={companyDetails.x} tabIndex={-1}>
+                    {/* <i className="fab fa-twitter" /> */}
+                    <BsTwitterX
+                      className="fab fa-x"
+                      style={{ color: "black" }}
+                    />
                   </Link>
-                  <Link to="#" tabIndex={-1}>
+                  <Link to={companyDetails.instagram} tabIndex={-1}>
                     <i className="fab fa-instagram" />
                   </Link>
                 </div>

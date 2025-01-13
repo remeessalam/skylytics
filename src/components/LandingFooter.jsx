@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { companyDetails } from "../constant";
 import { Link as ScrollLink } from "react-scroll";
+import { BsTwitterX } from "react-icons/bs";
 
 const LandingFooter = () => {
   return (
@@ -34,10 +35,14 @@ const LandingFooter = () => {
                     <Link to="#" tabIndex={-1}>
                       <i className="fab fa-facebook-f" />
                     </Link>
-                    <Link to="#" tabIndex={-1}>
-                      <i className="fab fa-twitter" />
+                    <Link to={companyDetails.x} tabIndex={-1}>
+                      {/* <i className="fab fa-twitter" /> */}
+                      <BsTwitterX
+                        className="fab fa-x"
+                        style={{ color: "black" }}
+                      />
                     </Link>
-                    <Link to="#" tabIndex={-1}>
+                    <Link to={companyDetails.instagram} tabIndex={-1}>
                       <i className="fab fa-instagram" />
                     </Link>
                     <Link to="#" tabIndex={-1}>

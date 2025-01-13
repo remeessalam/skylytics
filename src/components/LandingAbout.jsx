@@ -29,7 +29,7 @@ const LandingAbout = ({ page }) => {
                 <p className="sec-text mb-35 text-white">
                   {isWeb
                     ? "We specialize in delivering robust, scalable, and user-friendly web solutions tailored to meet the unique needs of your business. From custom website development to advanced web applications, we provide cutting-edge technology to ensure a strong online presence and drive growth."
-                    : "Skylytics excels in designing and developing mobile applications that combine functionality, performance, and user experience. Our solutions range from native apps to cross-platform frameworks, ensuring your business stays connected with its audience anywhere, anytime."}
+                    : "SKYLYTICS excels in designing and developing mobile applications that combine functionality, performance, and user experience. Our solutions range from native apps to cross-platform frameworks, ensuring your business stays connected with its audience anywhere, anytime."}
                 </p>
               </div>
               <div className="row gy-4">

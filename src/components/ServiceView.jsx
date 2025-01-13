@@ -16,7 +16,7 @@ const ServiceView = () => {
               Empowering Your Business with Cutting-Edge Solutions
             </h2>
             <p className="sec-text mb-35 text-black">
-              At Skylytics Technologies LLP, we specialize in providing
+              At SKYLYTICS Technologies LLP, we specialize in providing
               innovative tech solutions that help businesses stay ahead of the
               curve. Our services include custom software development,
               AI-powered solutions, full-stack web development, and cloud
